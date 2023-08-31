@@ -81,29 +81,17 @@ ___
 <img title="Allure Tests" src="images/screenshot/allureTestCase.png" width="850">  
 </p>
 
-### *Графики*
-
-<p align="center">  
-<img title="Allure Graphics" src="images/screenshot/allureGraph.png" width="850">
-</p>
-
 ___
 <a id="allure-testops"></a>
-## <img alt="Allure" height="25" src="images/logo/Allure2.svg" width="25"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/3542/dashboards">Allure TestOps</a>
+## <img alt="Allure" height="25" src="images/logo/Allure2.svg" width="25"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/3637/dashboards">Allure TestOps</a>
 ____
 ### *Allure TestOps Dashboard*
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/screenshot/allureTestOpsMain.png" width="850">  
-</p>  
-
-### *Ручные тест-кейсы*
-
-<p align="center">  
-<img title="Allure Tests" src="images/screenshot/allureTestOpsManual.png" width="850">  
 </p>
 
-### *Авто тест-кейсы*
+### *Тест-кейсы*
 
 <p align="center">  
 <img title="Allure TestOps Tests" src="images/screenshot/allureTestOpsAuto.png" width="850">  
@@ -111,7 +99,7 @@ ____
 
 ___
 <a id="jira"></a>
-## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-803">Jira</a>
+## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-861">Jira</a>
 ____
 <p align="center">  
 <img title="Jira" src="images/screenshot/jira.png" width="850">  

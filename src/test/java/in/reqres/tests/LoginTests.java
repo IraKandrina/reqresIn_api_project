@@ -40,7 +40,6 @@ public class LoginTests {
     @DisplayName("Неуспешный логин пользователя")
     void unsuccessfulLogin() {
         user.setEmail("test.holt@reqres.in");
-        user.setPassword("password");
 
         step("Make request", () ->
                 given(request)
