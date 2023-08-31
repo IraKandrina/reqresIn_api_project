@@ -14,7 +14,6 @@ import static org.hamcrest.Matchers.is;
 @Owner("IraKandrina")
 @Epic("API Reqres")
 @Feature("User registration")
-@Tag("api")
 public class RegisterTests {
     UserModel user = new UserModel();
     @Severity(CRITICAL)

@@ -13,7 +13,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Owner("IraKandrina")
 @Epic("API Reqres")
 @Feature("Actions with users")
-@Tag("api")
 public class UserTests {
     UserModel user = new UserModel();
     @Severity(CRITICAL)
