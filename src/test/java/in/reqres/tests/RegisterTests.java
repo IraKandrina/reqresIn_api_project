@@ -16,6 +16,7 @@ import static org.hamcrest.Matchers.is;
 @Feature("User registration")
 public class RegisterTests {
     UserModel user = new UserModel();
+
     @Severity(CRITICAL)
     @Test
     @DisplayName("Успешная регистрация пользователя")

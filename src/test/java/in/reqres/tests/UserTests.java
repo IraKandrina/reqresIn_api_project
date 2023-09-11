@@ -9,12 +9,14 @@ import static io.qameta.allure.Allure.step;
 import static io.qameta.allure.SeverityLevel.*;
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.Matchers.is;
 
 @Owner("IraKandrina")
 @Epic("API Reqres")
 @Feature("Actions with users")
 public class UserTests {
     UserModel user = new UserModel();
+
     @Severity(CRITICAL)
     @Test
     @DisplayName("Создание пользователя")
@@ -32,8 +34,8 @@ public class UserTests {
                         .extract().as(UserResponseModel.class));
 
         step("Check response", () -> {
-                assertThat(userResponse.getName()).isEqualTo("morpheus");
-                assertThat(userResponse.getJob()).isEqualTo("leader");
+            assertThat(userResponse.getName()).isEqualTo("morpheus");
+            assertThat(userResponse.getJob()).isEqualTo("leader");
         });
     }
 

@@ -16,6 +16,7 @@ import static org.hamcrest.Matchers.is;
 @Feature("User authorization")
 public class LoginTests {
     UserModel user = new UserModel();
+
     @Severity(CRITICAL)
     @Test
     @DisplayName("Успешный логин пользователя")
@@ -48,6 +49,6 @@ public class LoginTests {
                         .post("/login")
                         .then()
                         .spec(response400))
-                .body("error", is("user not found"));
+                .body("error", is("Missing password"));
     }
 }
